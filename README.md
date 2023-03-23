@@ -143,6 +143,10 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ![image](https://user-images.githubusercontent.com/93924485/227385155-fea9d616-44f8-4511-8993-60782934ee7a.png)
 
 
+### 11-) Personal Access Token’ı oluşturduktan sonra aşağıdaki gibi bir mail almamız gerekiyor.
+###      After creating the Personal Access Token, we need to receive an email like the following.
+
+
 ![image](https://user-images.githubusercontent.com/93924485/227385873-2989ddc6-6576-47cd-b331-37490a27b60b.png)
 
 
