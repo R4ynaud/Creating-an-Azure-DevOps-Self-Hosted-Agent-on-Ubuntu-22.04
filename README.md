@@ -20,3 +20,13 @@ Bu sayede, Azure DevOps üzerinde bulunan projelerin, kendi altyapınızda veya 
 This enables projects in Azure DevOps to run smoothly on your infrastructure or server. It is especially useful for projects requiring high security or high performance, allowing you to use all your servers more effectively.
 
 
+
+
+
+### 1-) Kurulumdan önce işletim sistemimizin paketlerini güncellemek için aşağıdaki komutları çalıştırıyoruz.
+###     We run the following commands to update our operating system's packages before installation.
+
+> sudo apt-get update  
+> sudo apt-get upgrade
+
+
