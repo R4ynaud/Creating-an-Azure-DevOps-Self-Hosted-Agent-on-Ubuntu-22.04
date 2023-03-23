@@ -106,7 +106,14 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227375835-965f1bbc-2127-488e-9c88-c6b0da32df92.png)
 
 
+### 9-) " config.sh " çalıştırıp agentı create etmeye başlıyoruz, bunun için aşağıdaki bazı komutları sırasıyla çalıştırmamız lazım.
+###     We need to run some commands in order to create the agent by running "config.sh". Here are the commands that we need to run in order.
 
+
+
+> export AGENT_ALLOW_RUNASROOT="1"
+
+> ./config.sh
 
 
 
