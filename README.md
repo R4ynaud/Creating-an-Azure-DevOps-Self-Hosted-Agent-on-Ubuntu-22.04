@@ -81,3 +81,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 ### 6-) “New agent” a tıklayalım. İşletim sistemine göre agentı indirmeniz gerekmektedir.
 ###     Click on "New Agent". You will need to download the agent according to your operating system.
+
+
+![image](https://user-images.githubusercontent.com/93924485/227365596-5678c1cc-6202-4c36-b1bb-ee3f4817bb72.png)
+
