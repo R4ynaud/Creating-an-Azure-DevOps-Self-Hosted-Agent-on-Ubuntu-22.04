@@ -162,8 +162,6 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 
 > Agent Pool Name (Dogukan)
 
-> ****************************************************
-
 
 ### 12-) Agent'ı sorunsuz oluşturduktan sonra aşağıdaki gibi bir çıktı almamız gerekiyor.
 ###      Once the Agent is created successfully, we should receive an output like the following.
