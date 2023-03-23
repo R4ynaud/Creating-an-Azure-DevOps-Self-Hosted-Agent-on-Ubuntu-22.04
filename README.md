@@ -106,17 +106,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227375835-965f1bbc-2127-488e-9c88-c6b0da32df92.png)
 
 
-### 9-) " config.sh " çalıştırıp agentı create etmeye başlıyoruz, bunun için aşağıdaki bazı komutları sırasıyla çalıştırmamız lazım.
-###     We need to run some commands in order to create the agent by running "config.sh". Here are the commands that we need to run in order.
-
-
-
-> export AGENT_ALLOW_RUNASROOT="1"
-
-> ./config.sh
-
-
-### 10-) Personal Access Token’ı oluşturalım, bunun için aşağıdaki adımları sırasıyla uygulamamız gerekiyor. 
+### 9-) Personal Access Token’ı oluşturalım, bunun için aşağıdaki adımları sırasıyla uygulamamız gerekiyor. 
 ###      Let's create a 'Personal Access Token' by following the steps below in order.
 
 
@@ -143,14 +133,21 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ![image](https://user-images.githubusercontent.com/93924485/227385155-fea9d616-44f8-4511-8993-60782934ee7a.png)
 
 
-### 11-) Personal Access Token’ı oluşturduktan sonra aşağıdaki gibi bir mail almamız gerekiyor.
+### 10-) Personal Access Token’ı oluşturduktan sonra aşağıdaki gibi bir mail almamız gerekiyor.
 ###      After creating the Personal Access Token, we need to receive an email like the following.
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227385873-2989ddc6-6576-47cd-b331-37490a27b60b.png)
 
 
+### 11-) " config.sh " çalıştırıp agentı create etmeye başlıyoruz, bunun için aşağıdaki bazı komutları sırasıyla çalıştırmamız lazım.
+###     We need to run some commands in order to create the agent by running "config.sh". Here are the commands that we need to run in order.
 
+
+
+> export AGENT_ALLOW_RUNASROOT="1"
+
+> ./config.sh
 
 
 
