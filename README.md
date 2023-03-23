@@ -72,9 +72,11 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 • Yukarıdaki adımları yaptıktan sonra bizi aşağıdaki ekran karşılamaktadır.
+
 • After completing the above steps, we are greeted with the following screen.
 
 
+![image](https://user-images.githubusercontent.com/93924485/227321665-dae0a4a2-fdae-4af8-bf8d-14d24af72d6c.png)
 
 
 
