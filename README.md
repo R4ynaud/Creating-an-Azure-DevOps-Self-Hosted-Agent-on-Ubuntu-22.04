@@ -86,7 +86,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227365596-5678c1cc-6202-4c36-b1bb-ee3f4817bb72.png)
 
 
-### 7-) Agentı indirmek için aşağıdaki komutu kullanıyoruz.
+### 7-) Agentı indirmek için aşağıdaki komutu çalıştırıyoruz.
 ###     We use the following command to download the agent. 
 
 
@@ -96,7 +96,11 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227368789-fe2b82d0-c1f5-4139-8500-4c4a088dc840.png)
 
 
+### 8-) ".tar" uzantılı arşiv dosyasını bulunduğumuz klasöre çıkartmak için aşağıdaki komutu çalıştırıyoruz. 
+###     We run the following command to extract the ".tar" archive file to the current directory
 
+
+> tar -xvf vsts-agent-linux-x64-2.218.1.tar.gz
 
 
 
