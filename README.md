@@ -85,3 +85,56 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 ![image](https://user-images.githubusercontent.com/93924485/227365596-5678c1cc-6202-4c36-b1bb-ee3f4817bb72.png)
 
+
+### 7-) Agentı indirmek için aşağıdaki komutu kullanıyoruz.
+###     We use the following command to download the agent. 
+
+
+> wget https://vstsagentpackage.azureedge.net/agent/2.218.1/vsts-agent-linux-x64-2.218.1.tar.gz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
