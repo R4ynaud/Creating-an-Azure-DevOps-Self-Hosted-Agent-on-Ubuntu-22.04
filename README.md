@@ -58,7 +58,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227315305-dd2d6123-97c7-4736-8cfd-fe6829abb204.png)
 
 
-![image](https://user-images.githubusercontent.com/93924485/227316597-94a6302e-b8d3-420c-875f-965fa5fab370.png)
+![image](https://user-images.githubusercontent.com/93924485/227317323-06771e57-7f7a-4494-b3ff-b8580c1915f3.png)
 
 
 
