@@ -14,8 +14,9 @@ Bu sayede, Azure DevOps üzerinde bulunan projelerin, kendi altyapınızda veya 
 
 
 
-# What is an Azure DevOps Self-Hosted Agent ?
+## What is an Azure DevOps Self-Hosted Agent ?
 
-
+• Azure DevOps Self-Hosted Agent is a tool used in Azure DevOps for managing CI/CD processes. It functions as an agent running on your own computer or server and performs tasks in Azure DevOps. 
+This enables projects in Azure DevOps to run smoothly on your infrastructure or server. It is especially useful for projects requiring high security or high performance, allowing you to use all your servers more effectively.
 
 
