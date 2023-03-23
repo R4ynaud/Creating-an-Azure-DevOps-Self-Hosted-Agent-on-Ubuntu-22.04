@@ -48,3 +48,14 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ### 4-) Organization Settings → Pipelines → Agent Pools a tıklayalım ve yeni bir pool oluşturmak için “Add Pool” a tıklayalım.
 ###     Let's click on Organization Settings → Pipelines → Agent Pools and to create a new pool, click on "Add Pool".
 
+
+![image](https://user-images.githubusercontent.com/93924485/227314978-f0ae396c-6749-43dd-83c7-3d74b6fe5fde.png)
+
+
+![image](https://user-images.githubusercontent.com/93924485/227315123-761b809f-8b40-465f-a15f-5525ce64152f.png)
+
+
+![image](https://user-images.githubusercontent.com/93924485/227315305-dd2d6123-97c7-4736-8cfd-fe6829abb204.png)
+
+
+
