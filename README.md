@@ -116,6 +116,22 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 > ./config.sh
 
 
+### 10-) Personal Access Token’ı oluşturalım, bunun için aşağıdaki adımları sırasıyla uygulamamız gerekiyor. 
+
+
+• User settings → Personal Access Token → New Token 
+
+
+• Burada hangi organization için bu agenta yetki vermek istiyorsanız onu seçmelisiniz. 
+Sonrasında expiration için 30–60–90 günlük yerine “Custom defined” seçeneği ile daha uzun bir süre verebilirsiniz, 1 seneyi aşmamak koşuluyla. 
+
+
+
+
+
+
+
+
 
 
 
