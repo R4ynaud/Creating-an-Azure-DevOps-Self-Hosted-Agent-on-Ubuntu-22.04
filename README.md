@@ -71,7 +71,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227319940-75e5a738-3dd8-4a09-a417-b6f1523f6124.png)
 
 
-• Yukarıdaki adımları yaptıktan sonra bizi aşağıdaki ekran karşılamaktadır.
+• Yukarıdaki adımları tamamladıktan sonra bizi aşağıdaki ekran karşılamaktadır.
 
 • After completing the above steps, we are greeted with the following screen.
 
