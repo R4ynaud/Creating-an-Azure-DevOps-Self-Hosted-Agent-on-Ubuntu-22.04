@@ -4,7 +4,18 @@
 
 
 
-# Azure DevOps Self-Hosted Agent nedir, ne işe yarar ?
+## Azure DevOps Self-Hosted Agent nedir, ne işe yarar ?
+
+• Azure DevOps Self-Hosted Agent, Azure DevOps'ta kullanılan bir araçtır. Bu araç, Azure DevOps'ta yer alan CI/CD süreçlerinin yönetilmesinde kullanılır. 
+Kendi bilgisayarınızda veya sunucunuzda çalışan bir agent olarak görev yapar ve Azure DevOps'ta yer alan görevleri yerine getirir. 
+Bu sayede, Azure DevOps üzerinde bulunan projelerin, kendi altyapınızda veya sunucunuzda da sorunsuz bir şekilde çalışmasını sağlar. 
+Özellikle güvenlik gerektiren veya yüksek performans gerektiren projelerde kullanılmaktadır. Bu sayede tüm serverlarınızı daha efektif bir şekilde kullanabilirsiniz.
+
+
+
+
 # What is an Azure DevOps Self-Hosted Agent ?
 
-R4
+
+
+
