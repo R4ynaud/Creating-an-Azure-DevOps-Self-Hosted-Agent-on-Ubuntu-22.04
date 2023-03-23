@@ -173,6 +173,21 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ![image](https://user-images.githubusercontent.com/93924485/227389286-e07db64d-6f11-48f3-9129-280a9d97c8ac.png)
 
 
+### 13-) " Offline " olan agentı çalıştırmak için " run.sh " çalıştırmamız gerekiyor. 
+###      To run the agent that is "Offline", we need to execute "run.sh".
+
+
+> ./run.sh
+
+
+![image](https://user-images.githubusercontent.com/93924485/227389984-d498153e-e25c-461e-9007-aedf633c3e83.png)
+
+
+![image](https://user-images.githubusercontent.com/93924485/227390049-e32917d2-1711-486b-a308-ca42377808c2.png)
+
+
+
+
 
 
 
