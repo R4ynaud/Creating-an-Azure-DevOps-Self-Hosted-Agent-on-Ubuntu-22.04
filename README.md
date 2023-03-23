@@ -61,5 +61,52 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227317323-06771e57-7f7a-4494-b3ff-b8580c1915f3.png)
 
 
+### 5-) Açılan ekranda pool için isim ve açıklama yazmanız gerekmektedir. Tüm pipelinelara erişim yetkisi vermek için “Grant access permission to all pipelines” ı seçebilirsiniz.
+###     On the screen that appears, you need to enter a name and description for the pool. You can select "Grant access permission to all pipelines" to give access permission to all pipelines.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
