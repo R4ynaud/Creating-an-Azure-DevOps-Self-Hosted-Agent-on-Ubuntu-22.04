@@ -38,7 +38,11 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 > sudo apt-get install wget
 
 
+### 3-) Agent için yeni bir klasör oluşturuyoruz. 
+###     We are creating a new folder for the agent.
 
+
+> sudo mkdir azure-agent
 
 
 
