@@ -26,7 +26,20 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ### 1-) Kurulumdan önce işletim sistemimizin paketlerini güncellemek için aşağıdaki komutları çalıştırıyoruz.
 ###     We run the following commands to update our operating system's packages before installation.
 
+
 > sudo apt-get update  
 > sudo apt-get upgrade
+
+
+### 2-) Eğer işletim sistemimizde "WGET" yüklü değilse öncelikle wget kurulumu yapmamız gerekiyor, wget kurulumu yapmak için aşağıdaki komutu çalıştırın.
+###     If "WGET" is not installed on our operating system, we need to install it first. To install WGET, run the following command.
+
+
+> sudo apt-get install wget
+
+
+
+
+
 
 
