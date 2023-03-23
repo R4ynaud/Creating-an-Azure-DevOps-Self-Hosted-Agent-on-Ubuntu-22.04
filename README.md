@@ -65,6 +65,10 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ###     On the screen that appears, you need to enter a name and description for the pool. You can select "Grant access permission to all pipelines" to give access permission to all pipelines.
 
 
+![image](https://user-images.githubusercontent.com/93924485/227319502-03cdf517-4a14-4d6f-9938-54a1535e9149.png)
+
+
+
 
 
 
