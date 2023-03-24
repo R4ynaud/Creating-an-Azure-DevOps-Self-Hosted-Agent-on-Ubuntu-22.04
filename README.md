@@ -212,16 +212,16 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ### 16-) Agent schedule. 
 
 
-• Profesyonel iş hayatında büyük projelerde çalışmaya başladığımız zaman bütün agentları manuel yönetmek biraz karmaşık ve zor olabilir, böyle durumlarda imdadımıza Azure DevOps'un " Agent Schedule " özelliği yetişiyor. Bu özellik, oluşturulan agent'ı tercihlerimize göre yönetmemizi sağlar. Yani agent'ı önceden planlayarak istediğimiz gün ve saat aralığında çalıştırabiliyoruz.
+##• Profesyonel iş hayatında büyük projelerde çalışmaya başladığımız zaman bütün agentları manuel yönetmek biraz karmaşık ve zor olabilir, böyle durumlarda imdadımıza Azure DevOps'un " Agent Schedule " özelliği yetişiyor. Bu özellik, oluşturulan agent'ı tercihlerimize göre yönetmemizi sağlar. Yani agent'ı önceden planlayarak istediğimiz gün ve saat aralığında çalıştırabiliyoruz.
 
 
-• When starting to work on large projects in a professional business environment, manually managing all agents can be a bit complicated and difficult. In such situations, Azure DevOps' "Agent Schedule" feature comes to our aid. This feature allows us to manage the created agent according to our preferences. That is, we can run the agent on the day and time range we want by planning it in advance.
+##• When starting to work on large projects in a professional business environment, manually managing all agents can be a bit complicated and difficult. In such situations, Azure DevOps' "Agent Schedule" feature comes to our aid. This feature allows us to manage the created agent according to our preferences. That is, we can run the agent on the day and time range we want by planning it in advance.
 
 
-. Örnek bir projede bu özelleği denemek için aşağıdaki adımları tek tek uygulamamız gerekiyor.
+#• Örnek bir projede bu özelleği denemek için aşağıdaki adımları tek tek uygulamamız gerekiyor.
  
 
-. To try this feature on a sample project, we need to follow the steps below one by one.
+#• To try this feature on a sample project, we need to follow the steps below one by one.
 
 
 
