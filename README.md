@@ -196,6 +196,23 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ![image](https://user-images.githubusercontent.com/93924485/227390744-56473bcb-d5c6-4a9b-a3a1-cf18a5afcf2f.png)
 
 
+![image](https://user-images.githubusercontent.com/93924485/227394115-62160dd0-abf5-4b84-ba46-6d81f53382a7.png)
+
+
+![image](https://user-images.githubusercontent.com/93924485/227394021-97aa3a84-08dd-4163-952a-b7e0e9107d36.png)
+
+
+### 15-) Agent sorunsuz çalıştıktan sonra aşağıdaki gibi bir mail gelmesi gerekiyor.
+###      After the successful execution of the agent, you should receive an email similar to the following.
+
+
+![image](https://user-images.githubusercontent.com/93924485/227394489-6dc4e84f-b055-4cf9-b3a4-91ceac49ba7f.png)
+ 
+
+
+
+
+
 
 
 
