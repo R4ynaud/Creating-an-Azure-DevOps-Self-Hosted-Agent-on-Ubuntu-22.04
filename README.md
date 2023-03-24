@@ -144,12 +144,6 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ###     We need to run some commands in order to create the agent by running "config.sh". Here are the commands that we need to run in order.
 
 
-
-> export AGENT_ALLOW_RUNASROOT="1"
-
-> ./config.sh
-
-
 > export AGENT_ALLOW_RUNASROOT="1"
 
 > ./config.sh
