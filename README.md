@@ -6,9 +6,9 @@
 
 ## Azure DevOps Self-Hosted Agent nedir, ne işe yarar ?
 
-• Azure DevOps Self-Hosted Agent, Azure DevOps'ta kullanılan bir araçtır. Bu araç, Azure DevOps'ta yer alan CI/CD süreçlerinin yönetilmesinde kullanılır. 
-Kendi bilgisayarınızda veya sunucunuzda çalışan bir agent olarak görev yapar ve Azure DevOps'ta yer alan görevleri yerine getirir. 
-Bu sayede, Azure DevOps üzerinde bulunan projelerin, kendi altyapınızda veya sunucunuzda da sorunsuz bir şekilde çalışmasını sağlar. 
+• Azure DevOps Self-Hosted Agent, Azure DevOps da kullanılan bir araçtır. Bu araç, Azure DevOps da yer alan CI/CD süreçlerinin yönetilmesinde kullanılır. 
+Kendi bilgisayarınızda veya sunucunuzda çalışan bir agent olarak görev yapar ve Azure DevOps da yer alan görevleri yerine getirir. 
+Bu sayede Azure DevOps üzerinde bulunan projelerin, kendi altyapınızda veya sunucunuzda da sorunsuz bir şekilde çalışmasını sağlar. 
 Özellikle güvenlik gerektiren veya yüksek performans gerektiren projelerde kullanılmaktadır. Bu sayede tüm serverlarınızı daha efektif bir şekilde kullanabilirsiniz.
 
 
@@ -86,7 +86,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ![image](https://user-images.githubusercontent.com/93924485/227365596-5678c1cc-6202-4c36-b1bb-ee3f4817bb72.png)
 
 
-### 7-) Agentı indirmek için aşağıdaki komutu çalıştırıyoruz.
+### 7-) Agent'ı indirmek için aşağıdaki komutu çalıştırıyoruz.
 ###     We use the following command to download the agent. 
 
 
@@ -212,7 +212,7 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ### 16-) Agent schedule. 
 
 
-#### • Profesyonel iş hayatında büyük projelerde çalışmaya başladığımız zaman bütün agentları manuel yönetmek biraz karmaşık ve zor olabilir, böyle durumlarda imdadımıza Azure DevOps'un " Agent Schedule " özelliği yetişiyor. Bu özellik, oluşturulan agent'ı tercihlerimize göre yönetmemizi sağlar. Yani agent'ı önceden planlayarak istediğimiz gün ve saat aralığında çalıştırabiliyoruz.
+#### • Profesyonel iş hayatında büyük projelerde çalışmaya başladığımız zaman bütün agentlar'ı manuel yönetmek biraz karmaşık ve zor olabilir, böyle durumlarda imdadımıza Azure DevOps'un " Agent Schedule " özelliği yetişiyor. Bu özellik, oluşturulan agent'ı tercihlerimize göre yönetmemizi sağlar. Yani agent'ı önceden planlayarak istediğimiz gün ve saat aralığında çalıştırabiliyoruz.
 
 
 #### • When starting to work on large projects in a professional business environment, manually managing all agents can be a bit complicated and difficult. In such situations, Azure DevOps' "Agent Schedule" feature comes to our aid. This feature allows us to manage the created agent according to our preferences. That is, we can run the agent on the day and time range we want by planning it in advance.
