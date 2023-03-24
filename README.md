@@ -254,7 +254,7 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 • When checking for smooth operation, the area we should pay attention to is the "Summary" section indicating "Scheduled".
 
 
-• ![image](https://user-images.githubusercontent.com/93924485/227400397-a6c2586a-805b-4992-8060-9856c2329474.png)
+![image](https://user-images.githubusercontent.com/93924485/227400397-a6c2586a-805b-4992-8060-9856c2329474.png)
 
 
 
