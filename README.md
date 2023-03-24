@@ -186,6 +186,16 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ![image](https://user-images.githubusercontent.com/93924485/227390049-e32917d2-1711-486b-a308-ca42377808c2.png)
 
 
+### 14-) Agentı sorunsuz oluşturduktan örnek bir projede çalıştığını test edelim.
+###      Let's test if the agent works properly in a sample project after creating it.
+
+
+![image](https://user-images.githubusercontent.com/93924485/227390744-56473bcb-d5c6-4a9b-a3a1-cf18a5afcf2f.png)
+
+
+
+
+
 
 
 
