@@ -190,6 +190,9 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ###      Let's test if the agent works properly in a sample project after creating it.
 
 
+![image](https://user-images.githubusercontent.com/93924485/227390957-e13910d7-e21f-4334-b3c5-863a4d4b6d6b.png)
+
+
 ![image](https://user-images.githubusercontent.com/93924485/227390744-56473bcb-d5c6-4a9b-a3a1-cf18a5afcf2f.png)
 
 
