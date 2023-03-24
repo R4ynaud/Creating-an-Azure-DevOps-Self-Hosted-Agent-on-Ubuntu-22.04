@@ -212,7 +212,7 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ### 16-) Agent schedule. 
 
 
-• Profesyonel iş hayatında büyük projelerde çalışmaya başladığımız zaman bütün agentları manuel yönetmek biraz karmaşık ve zor olabilir, böyle durumlarda yardımımıza Azure DevOps'un " Agent Schedule " özelliği yetişiyor. Bu özellik bizlere oluşturduğumuz agent'ı isteğimize göre yönetme olanağı tanır. Yani agent'ı istediğimiz gün ve saat aralığında bunu önceden planlayarak çalıştırabiliriz. 
+• Profesyonel iş hayatında büyük projelerde çalışmaya başladığımız zaman bütün agentları manuel yönetmek biraz karmaşık ve zor olabilir, böyle durumlarda imdadımıza Azure DevOps'un " Agent Schedule " özelliği yetişiyor. Bu özellik bizlere oluşturduğumuz agent'ı isteğimize göre yönetme olanağı tanır. Yani agent'ı istediğimiz gün ve saat aralığında bunu önceden planlayarak çalıştırabiliriz. 
 
 
 
