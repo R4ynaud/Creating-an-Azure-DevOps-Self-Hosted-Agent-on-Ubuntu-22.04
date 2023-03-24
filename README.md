@@ -248,11 +248,13 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 • ![image](https://user-images.githubusercontent.com/93924485/227399744-9eb8ec29-14d5-46bf-ba78-3bb19ed5eb8d.png)
 
 
+• Sorunsuz çalışıp çalışmadığını kontrol ederken dikkat etmemiz gereken alan 'Scheduled' yazan 'Summary' bölümüdür.
 
 
+• When checking for smooth operation, the area we should pay attention to is the "Summary" section indicating "Scheduled".
 
 
-![image](https://user-images.githubusercontent.com/93924485/227400397-a6c2586a-805b-4992-8060-9856c2329474.png)
+• ![image](https://user-images.githubusercontent.com/93924485/227400397-a6c2586a-805b-4992-8060-9856c2329474.png)
 
 
 
