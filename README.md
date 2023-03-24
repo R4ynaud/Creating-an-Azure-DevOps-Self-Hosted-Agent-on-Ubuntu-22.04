@@ -227,10 +227,10 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 > Pipelines → Edit Pipelines → Triggers → Scheduled → Add 
 
 
-![image](https://user-images.githubusercontent.com/93924485/227399132-4df3ea67-2c34-4c91-a191-434d5b4e5d1a.png)
+• ![image](https://user-images.githubusercontent.com/93924485/227399132-4df3ea67-2c34-4c91-a191-434d5b4e5d1a.png)
 
 
-![image](https://user-images.githubusercontent.com/93924485/227399167-73ee5ea6-b6be-4cd7-a944-79dbe9e8ce44.png)
+• ![image](https://user-images.githubusercontent.com/93924485/227399167-73ee5ea6-b6be-4cd7-a944-79dbe9e8ce44.png)
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227399213-58c24703-8a9f-4fb4-89b3-8d92772403ea.png)
