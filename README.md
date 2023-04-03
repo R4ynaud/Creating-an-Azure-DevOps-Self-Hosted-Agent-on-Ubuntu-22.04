@@ -97,7 +97,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 ### 8-) ".tar" uzantılı arşiv dosyasını bulunduğumuz klasöre çıkartmak için aşağıdaki komutu çalıştırıyoruz. 
-###     We run the following command to extract the ".tar" archive file to the current directory
+###     We run the following command to extract the ".tar" archive file to the current directory.
 
 
 > tar -xvf vsts-agent-linux-x64-2.218.1.tar.gz
