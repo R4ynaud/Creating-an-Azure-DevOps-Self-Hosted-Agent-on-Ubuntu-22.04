@@ -24,7 +24,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 ### 1-) Kurulumdan önce işletim sistemimizin paketlerini güncellemek için aşağıdaki komutları çalıştırıyoruz.
-###     We run the following commands to update our operating system's packages before installation.
+### 1-) We run the following commands to update our operating system's packages before installation.
 
 
 > sudo apt-get update  
@@ -32,21 +32,21 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 ### 2-) Eğer işletim sistemimizde "WGET" yüklü değilse öncelikle wget kurulumu yapmamız gerekiyor, wget kurulumu yapmak için aşağıdaki komutu çalıştırın.
-###     If "WGET" is not installed on our operating system, we need to install it first. To install WGET, run the following command.
+### 2-) If "WGET" is not installed on our operating system, we need to install it first. To install WGET, run the following command.
 
 
 > sudo apt-get install wget
 
 
 ### 3-) Agent için yeni bir klasör oluşturuyoruz. 
-###     We are creating a new folder for the agent.
+### 3-) We are creating a new folder for the agent.
 
 
 > sudo mkdir azure-agent
 
 
 ### 4-) Organization Settings → Pipelines → Agent Pools a tıklayalım ve yeni bir pool oluşturmak için “Add Pool” a tıklayalım.
-###     Let's click on Organization Settings → Pipelines → Agent Pools and to create a new pool, click on "Add Pool".
+### 4-) Let's click on Organization Settings → Pipelines → Agent Pools and to create a new pool, click on "Add Pool".
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227314978-f0ae396c-6749-43dd-83c7-3d74b6fe5fde.png)
@@ -62,7 +62,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 ### 5-) Açılan ekranda pool için isim ve açıklama yazmanız gerekmektedir. Tüm pipelinelara erişim yetkisi vermek için “Grant access permission to all pipelines” ı seçebilirsiniz.
-###     On the screen that appears, you need to enter a name and description for the pool. You can select "Grant access permission to all pipelines" to give access permission to all pipelines.
+### 5-) On the screen that appears, you need to enter a name and description for the pool. You can select "Grant access permission to all pipelines" to give access permission to all pipelines.
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227319502-03cdf517-4a14-4d6f-9938-54a1535e9149.png)
@@ -80,14 +80,14 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 ### 6-) “New agent” a tıklayalım. İşletim sistemine göre agentı indirmeniz gerekmektedir.
-###     Click on "New Agent". You will need to download the agent according to your operating system.
+### 6-)  Click on "New Agent". You will need to download the agent according to your operating system.
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227365596-5678c1cc-6202-4c36-b1bb-ee3f4817bb72.png)
 
 
 ### 7-) Agent'ı indirmek için aşağıdaki komutu çalıştırıyoruz.
-###     We use the following command to download the agent. 
+### 7-) We use the following command to download the agent. 
 
 
 > wget https://vstsagentpackage.azureedge.net/agent/2.218.1/vsts-agent-linux-x64-2.218.1.tar.gz
@@ -97,7 +97,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 ### 8-) ".tar" uzantılı arşiv dosyasını bulunduğumuz klasöre çıkartmak için aşağıdaki komutu çalıştırıyoruz. 
-###     We run the following command to extract the ".tar" archive file to the current directory.
+### 8-) We run the following command to extract the ".tar" archive file to the current directory.
 
 
 > tar -xvf vsts-agent-linux-x64-2.218.1.tar.gz
@@ -107,7 +107,7 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 
 
 ### 9-) Personal Access Token’ı oluşturalım, bunun için aşağıdaki adımları sırasıyla uygulamamız gerekiyor. 
-###      Let's create a 'Personal Access Token' by following the steps below in order.
+### 9-) Let's create a 'Personal Access Token' by following the steps below in order.
 
 
 • User settings → Personal Access Token → New Token 
@@ -134,14 +134,14 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 
 
 ### 10-) Personal Access Token’ı oluşturduktan sonra aşağıdaki gibi bir mail almamız gerekiyor.
-###      After creating the Personal Access Token, we need to receive an email like the following.
+### 10-) After creating the Personal Access Token, we need to receive an email like the following.
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227385873-2989ddc6-6576-47cd-b331-37490a27b60b.png)
 
 
 ### 11-) " config.sh " çalıştırıp agentı create etmeye başlıyoruz, bunun için aşağıdaki bazı komutları sırasıyla çalıştırmamız lazım.
-###     We need to run some commands in order to create the agent by running "config.sh". Here are the commands that we need to run in order.
+### 11-)  We need to run some commands in order to create the agent by running "config.sh". Here are the commands that we need to run in order.
 
 
 > export AGENT_ALLOW_RUNASROOT="1"
@@ -158,7 +158,7 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 
 
 ### 12-) Agent'ı sorunsuz oluşturduktan sonra aşağıdaki gibi bir çıktı almamız gerekiyor.
-###      Once the Agent is created successfully, we should receive an output like the following.
+### 12-) Once the Agent is created successfully, we should receive an output like the following.
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227389078-97337939-1581-48d5-bfde-3468c818ca55.png)
@@ -168,7 +168,7 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 
 
 ### 13-) " Offline " olan agentı çalıştırmak için " run.sh " çalıştırmamız gerekiyor. 
-###      To run the agent that is "Offline", we need to execute "run.sh".
+### 13-)  To run the agent that is "Offline", we need to execute "run.sh".
 
 
 > ./run.sh
@@ -181,7 +181,7 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 
 
 ### 14-) Agentı sorunsuz oluşturduktan örnek bir projede çalıştığını test edelim.
-###      Let's test if the agent works properly in a sample project after creating it.
+### 14-) Let's test if the agent works properly in a sample project after creating it.
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227390957-e13910d7-e21f-4334-b3c5-863a4d4b6d6b.png)
@@ -197,7 +197,7 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 
 
 ### 15-) Agent sorunsuz çalıştıktan sonra aşağıdaki gibi bir mail gelmesi gerekiyor.
-###      After the successful execution of the agent, you should receive an email similar to the following.
+### 15-) After the successful execution of the agent, you should receive an email similar to the following.
 
 
 ![image](https://user-images.githubusercontent.com/93924485/227394489-6dc4e84f-b055-4cf9-b3a4-91ceac49ba7f.png)
