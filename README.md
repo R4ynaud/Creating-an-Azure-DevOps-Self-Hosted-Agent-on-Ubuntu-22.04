@@ -26,24 +26,26 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ### 1-) Kurulumdan önce işletim sistemimizin paketlerini güncellemek için aşağıdaki komutları çalıştırıyoruz.
 ### 1-) We run the following commands to update our operating system's packages before installation.
 
-
-> sudo apt-get update  
-> sudo apt-get upgrade
-
+```
+ sudo apt-get update  
+```
+```
+ sudo apt-get upgrade
+```
 
 ### 2-) Eğer işletim sistemimizde "WGET" yüklü değilse öncelikle wget kurulumu yapmamız gerekiyor, wget kurulumu yapmak için aşağıdaki komutu çalıştırın.
 ### 2-) If "WGET" is not installed on our operating system, we need to install it first. To install WGET, run the following command.
 
-
-> sudo apt-get install wget
-
+```
+ sudo apt-get install wget
+```
 
 ### 3-) Agent için yeni bir klasör oluşturuyoruz. 
 ### 3-) We are creating a new folder for the agent.
 
-
-> sudo mkdir azure-agent
-
+```
+ sudo mkdir azure-agent
+```
 
 ### 4-) Organization Settings → Pipelines → Agent Pools a tıklayalım ve yeni bir pool oluşturmak için “Add Pool” a tıklayalım.
 ### 4-) Let's click on Organization Settings → Pipelines → Agent Pools and to create a new pool, click on "Add Pool".
@@ -89,9 +91,9 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ### 7-) Agent'ı indirmek için aşağıdaki komutu çalıştırıyoruz.
 ### 7-) We use the following command to download the agent. 
 
-
-> wget https://vstsagentpackage.azureedge.net/agent/2.218.1/vsts-agent-linux-x64-2.218.1.tar.gz
-
+```
+ wget https://vstsagentpackage.azureedge.net/agent/2.218.1/vsts-agent-linux-x64-2.218.1.tar.gz
+```
 
 ![image](https://user-images.githubusercontent.com/93924485/227368789-fe2b82d0-c1f5-4139-8500-4c4a088dc840.png)
 
@@ -99,9 +101,9 @@ This enables projects in Azure DevOps to run smoothly on your infrastructure or 
 ### 8-) ".tar" uzantılı arşiv dosyasını bulunduğumuz klasöre çıkartmak için aşağıdaki komutu çalıştırıyoruz. 
 ### 8-) We run the following command to extract the ".tar" archive file to the current directory.
 
-
-> tar -xvf vsts-agent-linux-x64-2.218.1.tar.gz
-
+```
+ tar -xvf vsts-agent-linux-x64-2.218.1.tar.gz
+```
 
 ![image](https://user-images.githubusercontent.com/93924485/227375835-965f1bbc-2127-488e-9c88-c6b0da32df92.png)
 
@@ -143,19 +145,24 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ### 11-) " config.sh " çalıştırıp agentı create etmeye başlıyoruz, bunun için aşağıdaki bazı komutları sırasıyla çalıştırmamız lazım.
 ### 11-)  We need to run some commands in order to create the agent by running "config.sh". Here are the commands that we need to run in order.
 
-
-> export AGENT_ALLOW_RUNASROOT="1"
-
-> ./config.sh
-
-> Y
-
-> https://dev.azure.com/Organization Name
-
-> PAT
-
-> Agent Pool Name (Dogukan)
-
+```
+ export AGENT_ALLOW_RUNASROOT="1"
+```
+```
+ ./config.sh
+```
+```
+ Y
+```
+```
+ https://dev.azure.com/Organization Name
+```
+```
+ PAT
+```
+```
+ Agent Pool Name (Dogukan)
+```
 
 ### 12-) Agent'ı sorunsuz oluşturduktan sonra aşağıdaki gibi bir çıktı almamız gerekiyor.
 ### 12-) Once the Agent is created successfully, we should receive an output like the following.
@@ -170,9 +177,9 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 ### 13-) " Offline " olan agentı çalıştırmak için " run.sh " çalıştırmamız gerekiyor. 
 ### 13-)  To run the agent that is "Offline", we need to execute "run.sh".
 
-
-> ./run.sh
-
+```
+ ./run.sh
+```
 
 ![image](https://user-images.githubusercontent.com/93924485/227389984-d498153e-e25c-461e-9007-aedf633c3e83.png)
 
@@ -217,11 +224,11 @@ you can provide a longer expiration period by selecting the "Custom defined" opt
 
 • To try this feature on a sample project, we need to follow the steps below one by one.
 
+```
+ Pipelines → Edit Pipelines → Triggers → Scheduled → Add 
+```
 
-> Pipelines → Edit Pipelines → Triggers → Scheduled → Add 
-
-
-•   ![image](https://user-images.githubusercontent.com/93924485/227399132-4df3ea67-2c34-4c91-a191-434d5b4e5d1a.png)
+• ![image](https://user-images.githubusercontent.com/93924485/227399132-4df3ea67-2c34-4c91-a191-434d5b4e5d1a.png)
 
 
 • ![image](https://user-images.githubusercontent.com/93924485/227399167-73ee5ea6-b6be-4cd7-a944-79dbe9e8ce44.png)
